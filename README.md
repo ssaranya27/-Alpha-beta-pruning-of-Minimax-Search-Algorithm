@@ -1,6 +1,6 @@
 <h1>ExpNo 7 : Implement Alpha-beta pruning of Minimax Search Algorithm for a Simple TIC-TAC-TOE game</h1> 
-<h3>Name: SARANYA S    </h3>
-<h3>Register Number: 212223220101         </h3>
+<h3>Name: SARANYA S</h3>
+<h3>Register Number: 212223220101</h3>
 <H3>Aim:</H3>
 <p>
 Implement Alpha-beta pruning of Minimax Search Algorithm for a Simple TIC-TAC-TOE game
@@ -31,11 +31,7 @@ When added to a simple minimax algorithm, it gives the same output but cuts off 
 ![image](https://github.com/natsaravanan/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/87870499/440797bd-53cb-49c1-b18d-89776864c3e7)
 ![image](https://github.com/natsaravanan/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/87870499/81575a16-26b2-46f1-a8ac-27c9ed0a0fe5)
 
-
-<h2>Program:</h2>
-<hr>
-<p>
-
+### Program:
 ```
 import time
 
@@ -210,17 +206,15 @@ class Game:
                 self.current_state[px][py] = 'O'
                 self.player_turn = 'X'
 
-
-
-def main():
-    g = Game()
-    g.play_alpha_beta()
-
-if __name__ == "__main__":
-    main()
+g = Game()
+g.play_alpha_beta()
 ```
-</p>
-<hr>
-<h2>Result:</h2>
-<p>We have successfully implemented Alpha-beta pruning of Minimax Search Algorithm for a Simple TIC-TAC-TOE game</p>
-<hr>
+### Output:
+
+![437044456-2782ac16-2881-466c-bc95-9149889c4430](https://github.com/user-attachments/assets/4e642810-52a8-424a-aac3-93c4d8aaacb9)
+
+![437044501-f4d6b956-0f91-4e85-87e0-88b8642a524c](https://github.com/user-attachments/assets/d0c100d2-9e29-4218-8ccc-57486c25c1aa)
+
+### Result:
+Hence Alpha-beta pruning of Minimax Search Algorithm for a Simple TIC-TAC-TOE game has been implemented.
+
